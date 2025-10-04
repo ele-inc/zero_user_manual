@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(mkdir:*)",
-      "Bash(gh repo view:*)"
+      "Bash(gh repo view:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Read(//private/tmp/gh-pages-latest/**)",
+      "Bash(git log:*)"
     ],
     "deny": [],
     "ask": []
