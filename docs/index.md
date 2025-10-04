@@ -159,7 +159,9 @@ AIが分析に基づき、異なる訴求パターンで**最大3つの冒頭台
     - **確定する場合:** 「**A案でお願いします**」などのボタンをクリックすると、ドキュメント形式で出力されます。
     - **修正する場合:** チャット欄に追加の指示を入力します。（例：「A案を、もっと〇〇なトーンで修正して」）
 
-<img width="1556" height="508" alt="image" src="https://github.com/user-attachments/assets/88ddda63-55b4-4175-845e-b503c7621f01" />
+| 台本案の選択画面 |
+| --- |
+| ![台本案の選択](https://github.com/user-attachments/assets/88ddda63-55b4-4175-845e-b503c7621f01) |
 
 
 </details>
