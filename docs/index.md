@@ -57,6 +57,11 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 > - 画面左下のメールアドレス部分を拡大したスクリーンショット。
 > - メールアドレスと、そこから表示される「マイページ」ボタンを矢印や赤枠で明確に示す。
 
+<img width="1529" height="874" alt="image" src="https://github.com/user-attachments/assets/eddbf35f-6c5a-437d-9a3b-233e8ab988ea" />
+<img width="1516" height="872" alt="image" src="https://github.com/user-attachments/assets/154accd8-8afd-46d7-b6e8-feaf79bdfc14" />
+
+
+
 **💡 ポイント**
 入力は任意ですが、詳細に入力するほど、AIはあなたの特徴や強みを理解し、より的確な台本を提案できるようになります。
 
