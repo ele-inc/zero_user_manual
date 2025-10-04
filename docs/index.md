@@ -116,7 +116,9 @@ graph LR
 
 </details>
 
-### 2-2. 冒頭台本作成AI：引き込む導入を作る
+<details markdown="1">
+
+<summary><strong>2-2. 冒頭台本作成AI：引き込む導入を作る</strong></summary>
 
 企画案や既存の台本を元に、AIが視聴者を引き込む強力な冒頭台本を複数パターン提案します。
 
@@ -131,7 +133,9 @@ graph LR
 | 視聴者の抱える悩み（任意） | 未入力の場合、AIが推察します。 |
 | 悩みを解決した後の理想の姿（任意） | 未入力の場合、AIが推察します。 |
 
-<img width="1431" height="829" alt="image" src="https://github.com/user-attachments/assets/2cf252bd-9865-4138-ad03-feff487088d7" />
+| 入力フォーム画面 |
+| --- |
+| ![入力フォーム](https://github.com/user-attachments/assets/2cf252bd-9865-4138-ad03-feff487088d7) |
 
 
 #### ステップ 2：作成の実行と台本設計の確認
@@ -141,10 +145,9 @@ graph LR
 2.  AIが入力内容を分析し、「**台本設計**（ターゲット、訴求方法など）」を提示します。
 3.  内容を確認し、問題なければ「OK」などと入力して送信します。修正したい場合は、ここで指示を出します。
 
-<img width="1231" height="711" alt="image" src="https://github.com/user-attachments/assets/4dd9d162-3d7e-460d-bf1e-2cbb7c4b480d" />
-
-<img width="1371" height="793" alt="image" src="https://github.com/user-attachments/assets/cc042166-df29-4fb4-9d6d-b813e42c7ed8" />
-
+| 台本設計の確認画面 | 台本設計への返答画面 |
+| --- | --- |
+| ![台本設計の確認](https://github.com/user-attachments/assets/4dd9d162-3d7e-460d-bf1e-2cbb7c4b480d) | ![台本設計への返答](https://github.com/user-attachments/assets/cc042166-df29-4fb4-9d6d-b813e42c7ed8) |
 
 
 #### ステップ 3：結果の確認と選択
@@ -156,12 +159,11 @@ AIが分析に基づき、異なる訴求パターンで**最大3つの冒頭台
     - **確定する場合:** 「**A案でお願いします**」などのボタンをクリックすると、ドキュメント形式で出力されます。
     - **修正する場合:** チャット欄に追加の指示を入力します。（例：「A案を、もっと〇〇なトーンで修正して」）
 
-> **【画像指示案：台本案の選択画面】**
->
-> - AIが複数の台本案を提示したチャット画面のスクリーンショット。
-> - 「A案でお願いします」などの選択ボタンと、追加指示を入力するチャット欄を赤枠で強調する。
+| 台本案の選択画面 |
+| --- |
+| ![台本案の選択](https://github.com/user-attachments/assets/0824f8d1-a828-4dfb-81fd-602fcdeac2f3) |
 
-<img width="1431" height="1567" alt="image" src="https://github.com/user-attachments/assets/0824f8d1-a828-4dfb-81fd-602fcdeac2f3" />
+</details>
 
 
 ### 2-3. ドキュメント機能：台本を仕上げる
