@@ -89,10 +89,10 @@ graph LR
     style E fill:#fff3e0,stroke:#ff9800,stroke-width:3px
 ```
 
-<details>
+<details markdown="1">
+
 <summary><strong>2-1. 企画案作成AI：アイデアを具体化する</strong></summary>
 
-<br>
 
 「なんとなくこんな動画を作りたい」というアイデアレベルの状態から、AIとの対話を通して企画を具体化します。
 
