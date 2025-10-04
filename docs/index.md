@@ -91,7 +91,10 @@ graph LR
     style E fill:#fff3e0,stroke:#ff9800,stroke-width:3px
 ```
 
-### 2-1. 企画案作成AI：アイデアを具体化する
+<details>
+<summary><strong>2-1. 企画案作成AI：アイデアを具体化する</strong></summary>
+
+<br>
 
 「なんとなくこんな動画を作りたい」というアイデアレベルの状態から、AIとの対話を通して企画を具体化します。
 
@@ -101,7 +104,9 @@ graph LR
 
 対話を通じて、AIは「視聴者の悩み」「独自の解決策」などを言語化し、最終的に企画案としてまとめます。ここで作成した企画案は、そのまま「冒頭台本作成AI」で利用できます。
 
-<img width="846" height="1710" alt="image" src="https://github.com/user-attachments/assets/0ec67060-bc45-467b-9be0-1d15a6e10b39" />
+| 企画案の完成イメージ |
+| --- |
+| ![企画案作成AIの対話例](https://github.com/user-attachments/assets/0ec67060-bc45-467b-9be0-1d15a6e10b39) |
 
 
 #### ▼使用例
@@ -110,6 +115,8 @@ graph LR
 
 - [企画作成AIの使用例](https://youtube-content-gen.vercel.app/chat/3e6a4f5b-a42a-42ae-8960-083631875ce7)
 - [上記企画で冒頭台本を作成する例](https://youtube-content-gen.vercel.app/chat/07284908-48bc-4942-ad10-50b96914cd0b)
+
+</details>
 
 ### 2-2. 冒頭台本作成AI：引き込む導入を作る
 
