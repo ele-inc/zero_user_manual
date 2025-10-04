@@ -39,16 +39,9 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 2.  メールアドレスとパスワード（8文字以上）を入力し、「**登録**」ボタンをクリックします。
 3.  登録完了後、自動的にログインします。
 
-> ※既にアカウントをお持ちの場合は、メールアドレスとパスワードでログインしてください。
-
-> **【画像指示案：ログイン画面と新規登録画面】**
->
-> - ログイン画面と新規登録画面のスクリーンショットを横並び、または1枚に統合してコンパクトに表示。
-> - 「新規登録」リンクと、新規登録画面の「登録」ボタンを赤枠で強調。
-
-<img width="718" height="766" alt="image" src="https://github.com/user-attachments/assets/68579087-0cdb-43f2-abda-6837a45c7a66" />
-
-<img width="718" height="766" alt="image" src="https://github.com/user-attachments/assets/ddccc605-72a5-4bed-a1ff-a22269c45797" />
+| ログイン画面 | 新規登録画面 |
+| --- | --- |
+| ![ログイン画面](https://github.com/user-attachments/assets/68579087-0cdb-43f2-abda-6837a45c7a66) | ![新規登録画面](https://github.com/user-attachments/assets/ddccc605-72a5-4bed-a1ff-a22269c45797) |
 
 
 ### 1-2. 【重要】発信者情報の設定
