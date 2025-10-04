@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ''
+mermaid: true
 ---
 
 # **える式台本生成AIエージェント ZERO 活用ガイド**
