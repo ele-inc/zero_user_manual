@@ -31,7 +31,10 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 
 ## 準備編：はじめの設定
 
-### 1-1. アカウント作成とログイン
+<details>
+<summary><strong>1-1. アカウント作成とログイン</strong></summary>
+
+<br>
 
 [ツールURL](https://youtube-content-gen.vercel.app/)にアクセスし、アカウントを作成します。
 
@@ -43,8 +46,12 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 | --- | --- |
 | ![ログイン画面](https://github.com/user-attachments/assets/68579087-0cdb-43f2-abda-6837a45c7a66) | ![新規登録画面](https://github.com/user-attachments/assets/ddccc605-72a5-4bed-a1ff-a22269c45797) |
 
+</details>
 
-### 1-2. 【重要】発信者情報の設定
+<details>
+<summary><strong>1-2. 【重要】発信者情報の設定</strong></summary>
+
+<br>
 
 よりパーソナライズされた台本を作成するために、「発信者情報」の設定を推奨します。（後から設定も可能です）
 
@@ -59,6 +66,8 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 
 **💡 ポイント**
 入力は任意ですが、詳細に入力するほど、AIはあなたの特徴や強みを理解し、より的確な台本を提案できるようになります。
+
+</details>
 
 ---
 
