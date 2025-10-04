@@ -65,7 +65,6 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 | --- | --- |
 | ![発信者情報の設定をクリック](https://github.com/user-attachments/assets/eddbf35f-6c5a-437d-9a3b-233e8ab988ea) | ![発信者情報の設定画面](https://github.com/user-attachments/assets/154accd8-8afd-46d7-b6e8-feaf79bdfc14) |
 
-
 **💡 ポイント**
 入力は任意ですが、詳細に入力するほど、AIはあなたの特徴や強みを理解し、より的確な台本を提案できるようになります。
 
@@ -99,7 +98,6 @@ graph LR
 
 <summary>クリックして開く</summary>
 
-
 「なんとなくこんな動画を作りたい」というアイデアレベルの状態から、AIとの対話を通して企画を具体化します。
 
 1.  左メニューの「**企画案作成AI**」をクリックします。
@@ -111,7 +109,6 @@ graph LR
 | 企画案の完成イメージ |
 | --- |
 | ![企画案作成AIの対話例](https://github.com/user-attachments/assets/0ec67060-bc45-467b-9be0-1d15a6e10b39) |
-
 
 **▼使用例**
 
@@ -157,7 +154,6 @@ graph LR
 | --- | --- |
 | ![台本設計の確認](https://github.com/user-attachments/assets/4dd9d162-3d7e-460d-bf1e-2cbb7c4b480d) | ![台本設計への返答](https://github.com/user-attachments/assets/cc042166-df29-4fb4-9d6d-b813e42c7ed8) |
 
-
 #### **ステップ 3：結果の確認と選択**
 
 AIが分析に基づき、異なる訴求パターンで**最大3つの冒頭台本案**を提示します。
@@ -170,7 +166,6 @@ AIが分析に基づき、異なる訴求パターンで**最大3つの冒頭台
 | 台本案の選択画面 |
 | --- |
 | ![台本案の選択](https://github.com/user-attachments/assets/88ddda63-55b4-4175-845e-b503c7621f01) |
-
 
 </details>
 
