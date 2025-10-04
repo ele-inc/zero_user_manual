@@ -46,6 +46,11 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 > - ログイン画面と新規登録画面のスクリーンショットを横並び、または1枚に統合してコンパクトに表示。
 > - 「新規登録」リンクと、新規登録画面の「登録」ボタンを赤枠で強調。
 
+<img width="718" height="766" alt="image" src="https://github.com/user-attachments/assets/68579087-0cdb-43f2-abda-6837a45c7a66" />
+
+<img width="718" height="766" alt="image" src="https://github.com/user-attachments/assets/ddccc605-72a5-4bed-a1ff-a22269c45797" />
+
+
 ### 1-2. 【重要】発信者情報の設定
 
 よりパーソナライズされた台本を作成するために、「発信者情報」の設定を推奨します。（後から設定も可能です）
