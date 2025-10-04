@@ -90,6 +90,7 @@ graph LR
     style C fill:#e8f5e9,stroke:#66bb6a,stroke-width:2px
     style D fill:#fce4ec,stroke:#ec407a,stroke-width:2px
     style E fill:#fff3e0,stroke:#ff9800,stroke-width:3px
+
 ```
 
 ### **2-1. 企画案作成AI：アイデアを具体化する**
