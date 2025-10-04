@@ -7,9 +7,9 @@ title: ''
 
 ## **本ドキュメントの概要**
 
-「える式台本生成AIエージェント ZERO」は、YouTube動画の企画立案から台本作成までをサポートするAIツールです。
+「える式台本生成AIエージェント ZERO」の利用方法をまとめたドキュメントです。
 
-AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴者の悩みを分析して「刺さる」冒頭台本を生成します。このガイドでは、ZEROの基本的な使い方を解説します。
+利用開始前に必ずご一読ください。
 
 **ツールURL:** [https://youtube-content-gen.vercel.app/](https://www.google.com/search?q=https://youtube-content-gen.vercel.app/)
 
