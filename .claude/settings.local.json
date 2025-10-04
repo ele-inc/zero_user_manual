@@ -6,7 +6,9 @@
       "Bash(gh run list:*)",
       "Bash(gh run view:*)",
       "Read(//private/tmp/gh-pages-latest/**)",
-      "Bash(git log:*)"
+      "Bash(git log:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

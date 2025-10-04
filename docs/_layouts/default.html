@@ -14,19 +14,8 @@
     </div>
   </main>
 
-  <!-- Mermaid.js -->
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-  <script>
-    // Mermaid初期化
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: 'default'
-    });
-
-    // 動的にMermaidを再描画（必要に応じて）
-    document.addEventListener('DOMContentLoaded', function() {
-      mermaid.init();
-    });
-  </script>
+  {% if page.mermaid %}
+    {% include mermaid.html %}
+  {% endif %}
 </body>
 </html>
