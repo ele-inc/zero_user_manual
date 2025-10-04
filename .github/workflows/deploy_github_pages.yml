@@ -30,7 +30,7 @@ jobs:
         run: |
           grep -rl "language-mermaid" _site | while IFS= read -r file; do
             echo "Adding Mermaid to $file"
-            sudo sed -i 's|</head>|<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({ startOnLoad: false });await mermaid.run({querySelector: "pre > code.language-mermaid",});</script></head>|' "$file"
+            sudo sed -i 's|</head>|<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:true,theme:"default"});await mermaid.run({querySelector:"pre > code.language-mermaid"});</script></head>|' "$file"
           done
 
       - name: Upload artifact
