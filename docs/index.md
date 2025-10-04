@@ -35,7 +35,7 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 
 <details markdown="1">
 
-<summary><strong>クリックして開く</strong></summary>
+<summary>クリックして開く</summary>
 
 [ツールURL](https://youtube-content-gen.vercel.app/)にアクセスし、アカウントを作成します。
 
@@ -53,7 +53,7 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 
 <details markdown="1">
 
-<summary><strong>クリックして開く</strong></summary>
+<summary>クリックして開く</summary>
 
 よりパーソナライズされた台本を作成するために、「発信者情報」の設定を推奨します。（後から設定も可能です）
 
@@ -97,7 +97,7 @@ graph LR
 
 <details markdown="1">
 
-<summary><strong>クリックして開く</strong></summary>
+<summary>クリックして開く</summary>
 
 
 「なんとなくこんな動画を作りたい」というアイデアレベルの状態から、AIとの対話を通して企画を具体化します。
@@ -126,7 +126,7 @@ graph LR
 
 <details markdown="1">
 
-<summary><strong>クリックして開く</strong></summary>
+<summary>クリックして開く</summary>
 
 企画案や既存の台本を元に、AIが視聴者を引き込む強力な冒頭台本を複数パターン提案します。
 
@@ -178,7 +178,7 @@ AIが分析に基づき、異なる訴求パターンで**最大3つの冒頭台
 
 <details markdown="1">
 
-<summary><strong>クリックして開く</strong></summary>
+<summary>クリックして開く</summary>
 
 ドキュメント機能では、生成された台本の編集と管理が可能です。
 
