@@ -19,7 +19,7 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 
 1.  [準備編：はじめの設定](#準備編はじめの設定)
     - [1-1. アカウント作成とログイン](#1-1-アカウント作成とログイン)
-    - [1-2. 【重要】発信者情報の設定](#1-2-重要発信者情報の設定)
+    - [1-2. 【重要】発信者情報の設定](#1-2-発信者情報の設定)
 2.  [実践編：AIで企画と台本を作る](#実践編aiで企画と台本を作る)
     - [ZEROの全体フロー](#zeroの全体フロー)
     - [2-1. 企画案作成AI：アイデアを具体化する](#2-1-企画案作成aiアイデアを具体化する)
@@ -31,9 +31,11 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 
 ## 準備編：はじめの設定
 
+### 1-1. アカウント作成とログイン
+
 <details markdown="1">
 
-<summary><strong>1-1. アカウント作成とログイン</strong></summary>
+<summary><strong>クリックして開く</strong></summary>
 
 [ツールURL](https://youtube-content-gen.vercel.app/)にアクセスし、アカウントを作成します。
 
@@ -47,9 +49,11 @@ AIとの対話を通じてアイデアを具体的な企画に仕上げ、視聴
 
 </details>
 
+### 1-2. 発信者情報の設定
+
 <details markdown="1">
 
-<summary><strong>1-2. 【重要】発信者情報の設定</strong></summary>
+<summary><strong>クリックして開く</strong></summary>
 
 よりパーソナライズされた台本を作成するために、「発信者情報」の設定を推奨します。（後から設定も可能です）
 
@@ -89,9 +93,11 @@ graph LR
     style E fill:#fff3e0,stroke:#ff9800,stroke-width:3px
 ```
 
+### 2-1. 企画案作成AI：アイデアを具体化する
+
 <details markdown="1">
 
-<summary><strong>2-1. 企画案作成AI：アイデアを具体化する</strong></summary>
+<summary><strong>クリックして開く</strong></summary>
 
 
 「なんとなくこんな動画を作りたい」というアイデアレベルの状態から、AIとの対話を通して企画を具体化します。
@@ -116,9 +122,11 @@ graph LR
 
 </details>
 
+### 2-2. 冒頭台本作成AI：引き込む導入を作る
+
 <details markdown="1">
 
-<summary><strong>2-2. 冒頭台本作成AI：引き込む導入を作る</strong></summary>
+<summary><strong>クリックして開く</strong></summary>
 
 企画案や既存の台本を元に、AIが視聴者を引き込む強力な冒頭台本を複数パターン提案します。
 
@@ -166,10 +174,11 @@ AIが分析に基づき、異なる訴求パターンで**最大3つの冒頭台
 
 </details>
 
+### 2-3. ドキュメント機能：台本を仕上げる
 
 <details markdown="1">
 
-<summary><strong>2-3. ドキュメント機能：台本を仕上げる</strong></summary>
+<summary><strong>クリックして開く</strong></summary>
 
 ドキュメント機能では、生成された台本の編集と管理が可能です。
 
