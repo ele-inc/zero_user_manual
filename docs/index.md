@@ -16,6 +16,9 @@ mermaid: true
 
 **ツールURL:** [https://youtube-content-gen.vercel.app/](https://youtube-content-gen.vercel.app/)
 
+※ URLを最初に開いた際にはベーシック認証が求められます。  
+別途案内しているユーザー名とパスワードをご入力ください。
+
 ## **重要事項**
 
 現時点でのZEROは「冒頭生成」に特化したツールです。  
