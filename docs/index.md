@@ -12,7 +12,7 @@ mermaid: true
 
 利用開始前に必ずご一読ください。
 
-**ツールURL:** https://youtube-content-gen.vercel.app/
+**ツールURL:** [https://youtube-content-gen.vercel.app/](https://youtube-content-gen.vercel.app/)
 
 ---
 
