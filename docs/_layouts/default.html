@@ -17,5 +17,25 @@
   {% if page.mermaid %}
     {% include mermaid.html %}
   {% endif %}
+
+  <!-- External links open in new tab -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get all links
+      var links = document.getElementsByTagName('a');
+
+      for (var i = 0; i < links.length; i++) {
+        var link = links[i];
+
+        // Check if it's an external link
+        if (link.hostname && link.hostname !== window.location.hostname) {
+          // Set target to _blank for external links
+          link.setAttribute('target', '_blank');
+          // Add rel="noopener noreferrer" for security
+          link.setAttribute('rel', 'noopener noreferrer');
+        }
+      }
+    });
+  </script>
 </body>
 </html>
