@@ -12,7 +12,7 @@ mermaid: true
 
 利用開始前に必ずご一読ください。
 
-**ツールURL:** [https://youtube-content-gen.vercel.app/](https://www.google.com/search?q=https://youtube-content-gen.vercel.app/)
+**ツールURL:** https://youtube-content-gen.vercel.app/
 
 ---
 
@@ -184,7 +184,7 @@ AIが分析に基づき、異なる訴求パターンで**最大3つの冒頭台
 
 機能が豊富なため、以下の解説動画をご覧ください。
 
-[ドキュメント機能 解説動画 (Loom)](https://www.google.com/search?q=https://www.loom.com/share/1cdf9add0b494881bd729ccbbe3ac5a6%3Fsid%3Ddd24e410-79c4-49a4-9472-31d347bebfdd)
+[ドキュメント機能 解説動画 (Loom)](https://www.loom.com/share/1cdf9add0b494881bd729ccbbe3ac5a6%3Fsid%3Ddd24e410-79c4-49a4-9472-31d347bebfdd)
 
 **⚠️ AIに編集を依頼する際の重要操作**
 
