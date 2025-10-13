@@ -38,11 +38,9 @@ ZEROは現状で①企画案作成AI、②冒頭台本作成AI、③台本全文
 
 <img width="1441" height="817" alt="image" src="https://github.com/user-attachments/assets/ffb85a4b-f07e-4d5c-ad3d-267a5940f652" />
 
-
 ## 冒頭台本作成AIへのスタート画面
 
 <img width="1416" height="802" alt="image" src="https://github.com/user-attachments/assets/4796fd01-a790-4a3f-9cee-944610a15245" />
-
 
 ## 台本全文作成AIのスタート画面
 
@@ -53,10 +51,12 @@ ZEROは現状で①企画案作成AI、②冒頭台本作成AI、③台本全文
 <img width="1423" height="829" alt="image" src="https://github.com/user-attachments/assets/4ecb5785-6867-4151-842f-1bb15867e9fc" />
 
 ## 発信者情報の設定画面（マイページ）
+
 ※ メールアドレスの箇所から遷移できます
 <img width="1406" height="805" alt="image" src="https://github.com/user-attachments/assets/02121dc4-6914-40c2-a646-7ebc113d5a2f" />
 
 ## チャット形式の画面（全モード共通）
+
 ※ 画像は企画案作成AIの必要情報入力後にリダイレクトした後の画面
 <img width="1382" height="806" alt="image" src="https://github.com/user-attachments/assets/fddf0af3-1552-418f-965a-2287b0fe9d2b" />
 
@@ -67,7 +67,6 @@ Claudeのアーティファクト機能やChatGPTのキャンバス機能に近�
 <img width="1419" height="821" alt="image" src="https://github.com/user-attachments/assets/18c583c9-06fa-4c2b-aa3c-718ed729f345" />
 
 <img width="1422" height="815" alt="image" src="https://github.com/user-attachments/assets/d80bce08-8b1c-409b-91e5-33df6d816da2" />
-
 
 # ZEROのUI/UX課題感
 
