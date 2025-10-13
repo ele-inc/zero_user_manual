@@ -41,6 +41,10 @@ ZEROは現状で①企画案作成AI、②冒頭台本作成AI、③台本全文
 
 ## 各モードの入力画面
 
+<img width="1442" height="816" alt="kikaku" src="https://github.com/user-attachments/assets/433ceb82-c543-476c-bf1a-e4683faac85a" />
+<img width="1442" height="816" alt="boto" src="https://github.com/user-attachments/assets/03705adb-a438-4f78-9802-0a4662effd3b" />
+
+
 | 企画案作成AIへのスタート画面                                                                                     | 冒頭台本作成AIへのスタート画面                                                                                     |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | ![企画案作成AIへのスタート画面](https://github.com/user-attachments/assets/ffb85a4b-f07e-4d5c-ad3d-267a5940f652) | ![冒頭台本作成AIへのスタート画面](https://github.com/user-attachments/assets/4796fd01-a790-4a3f-9cee-944610a15245) |
