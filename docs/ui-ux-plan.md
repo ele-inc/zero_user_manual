@@ -41,27 +41,13 @@ ZEROは現状で①企画案作成AI、②冒頭台本作成AI、③台本全文
 
 ## 各モードの入力画面
 
-<table style="width:100%; border: none;">
-  <tr style="border: none;">
-    <td style="width:50%; border: none; text-align: center;"><b>企画案作成AIへのスタート画面</b></td>
-    <td style="width:50%; border: none; text-align: center;"><b>冒頭台本作成AIへのスタート画面</b></td>
-  </tr>
-  <tr style="border: none;">
-    <td style="width:50%; border: none;"><img src="https://github.com/user-attachments/assets/ffb85a4b-f07e-4d5c-ad3d-267a5940f652" alt="企画案作成AIへのスタート画面" style="width:100%;"></td>
-    <td style="width:50%; border: none;"><img src="https://github.com/user-attachments/assets/4796fd01-a790-4a3f-9cee-944610a15245" alt="冒頭台本作成AIへのスタート画面" style="width:100%;"></td>
-  </tr>
-</table>
+| 企画案作成AIへのスタート画面                                                                                     | 冒頭台本作成AIへのスタート画面                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| ![企画案作成AIへのスタート画面](https://github.com/user-attachments/assets/ffb85a4b-f07e-4d5c-ad3d-267a5940f652) | ![冒頭台本作成AIへのスタート画面](https://github.com/user-attachments/assets/4796fd01-a790-4a3f-9cee-944610a15245) |
 
-<table style="width:100%; border: none;">
-  <tr style="border: none;">
-    <td style="width:50%; border: none; text-align: center;"><b>台本全文作成AIのスタート画面</b></td>
-    <td style="width:50%; border: none; text-align: center;"><b>ショート台本作成AIへのスタート画面</b></td>
-  </tr>
-  <tr style="border: none;">
-    <td style="width:50%; border: none;"><img src="https://github.com/user-attachments/assets/d702e28d-bf73-445e-8146-189c77eb4493" alt="台本全文作成AIのスタート画面" style="width:100%;"></td>
-    <td style="width:50%; border: none;"><img src="https://github.com/user-attachments/assets/4ecb5785-6867-4151-842f-1bb15867e9fc" alt="ショート台本作成AIへのスタート画面" style="width:100%;"></td>
-  </tr>
-</table>
+| **台本全文作成AIのスタート画面**                                                                                 | **ショート台本作成AIへのスタート画面**                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ![台本全文作成AIのスタート画面](https://github.com/user-attachments/assets/d702e28d-bf73-445e-8146-189c77eb4493) | ![ショート台本作成AIへのスタート画面](https://github.com/user-attachments/assets/4ecb5785-6867-4151-842f-1bb15867e9fc) |
 
 ## 発信者情報の設定画面（マイページ）
 
