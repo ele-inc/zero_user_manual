@@ -382,14 +382,29 @@ AIが企画の種別を自動判定し、最適な台本フォーマットを選
 以下のように編集したい箇所を選択するとチャットのアイコンが表示されます。  
 アイコンをクリックするとチャットの入力画面が表示されます。
 
+<img width="1432" height="862" alt="image" src="https://github.com/user-attachments/assets/7dc68942-9d8d-469b-823d-56d5cc40c53c" />
+
+<img width="1432" height="862" alt="image" src="https://github.com/user-attachments/assets/a8495a7e-deed-4b60-89ff-37cb96b608ed" />
+
+
+
 ##### **ステップ2：編集指示を入力**
 
 編集指示を入力して送信すると「ZEROが考え中です」と表示されます。
+
+<img width="1432" height="862" alt="image" src="https://github.com/user-attachments/assets/ce5bc57b-8287-4cac-bd6c-49a382313f24" />
+
+<img width="1432" height="862" alt="image" src="https://github.com/user-attachments/assets/d5922525-81f7-40c2-b490-eab864ca96ef" />
 
 #### **ステップ3：編集内容の確認**
 
 ステップ2が終わると以下のように編集内容の確認画面が表示されます。  
 「変更点を表示」のアイコンをクリックすることで変更差分を確認できます。
+
+<img width="1432" height="862" alt="image" src="https://github.com/user-attachments/assets/beb17694-fcb8-48d4-832c-ade183692dfa" />
+
+<img width="1432" height="862" alt="image" src="https://github.com/user-attachments/assets/c09ef247-9820-4baf-b4a9-71b43f1582a6" />
+
 
 **⚠️注意事項⚠️**  
 AIが選択箇所以外の前後の文も編集する場合があります。必ず変更差分を確認してから反映してください。
@@ -399,9 +414,16 @@ AIが選択箇所以外の前後の文も編集する場合があります。必
 ステップ3で変更差分を確認したのちに「承認」のボタンをクリックすると変更が反映されます。  
 「却下」のボタンをクリックすることでAIの編集内容を却下し、再度編集指示を入力することができます。
 
+<img width="1432" height="862" alt="image" src="https://github.com/user-attachments/assets/6dc6ff37-c4bc-4fcf-9c0d-598e63b17f56" />
+
 #### ③バージョンの切り替えと復元機能
 
 ①や②の台本修正後にバージョンの切り替えと復元ができます。
+
+<img width="1434" height="862" alt="image" src="https://github.com/user-attachments/assets/ae10d471-eaab-4242-a9c4-961dc4f71541" />
+
+<img width="1432" height="862" alt="image" src="https://github.com/user-attachments/assets/b6887262-e40d-47ef-a1dc-6525ac86aab9" />
+
 
 </details>
 
