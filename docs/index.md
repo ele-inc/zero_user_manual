@@ -381,12 +381,15 @@ AIが企画の種別を自動判定し、最適な台本フォーマットを選
 
 #### ③AIによる台本修正機能
 
-以下の3ステップでAIに対して編集指示を与え、台本の編集・編集内容の確認を行なったのちに変更を反映します。
+以下のように編集箇所を選択した上でAIに編集指示を与え、台本の編集・編集内容の確認を行なったのちに変更を反映します。
 
 **⚠️注意事項⚠️**  
 AIが前後の文も編集する場合があります。必ず変更差分を確認してから反映してください。
 
-https://github.com/user-attachments/assets/b98896c5-80d5-4420-8b58-391f8a4dcaa7
+<iframe src="https://github.com/user-attachments/assets/b98896c5-80d5-4420-8b58-391f8a4dcaa7?raw=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+
+※GitHub Pages等で表示できない場合は、下記リンクから直接動画ファイルをご覧ください。  
+[動画をダウンロード／再生する](https://github.com/user-attachments/assets/b98896c5-80d5-4420-8b58-391f8a4dcaa7?raw=true)
 
 </details>
 
