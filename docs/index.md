@@ -357,7 +357,7 @@ AIが企画の種別を自動判定し、最適な台本フォーマットを選
 
 <summary>クリックして開く</summary>
 
-ドキュメント機能は、台本の編集とバージョン管理ができる機能です。  
+ドキュメント機能は、台本の編集とバージョン管理（変更差分の確認・バージョンの切り替え）ができる機能です。  
 大きく分けると以下3つの機能で構成されています。
 
 ①手入力による台本修正機能  
@@ -368,28 +368,22 @@ AIが企画の種別を自動判定し、最適な台本フォーマットを選
 
 #### ①手入力による台本修正機能
 
-以下の動画のように手入力で台本の修正ができます。  
+以下のように手入力で台本の修正ができます。  
 自動保存機能が未実装であるため、作業完了後に忘れずに保存ボタンを押してください🙇
 
-![手修正](https://github.com/user-attachments/assets/fecaa7b3-d920-4332-9d5b-4b2687e6bd6d)
+<img width="1441" height="856" alt="image" src="https://github.com/user-attachments/assets/2c8abc42-7433-4ffd-ab4c-5037031e8143" />
 
 #### ②バージョンの切り替えと復元機能
 
-以下では前のバージョンとの変更差分を確認した後にバージョンの切り替えを行なっています。
-
-![バージョン復元](https://github.com/user-attachments/assets/599015ab-71b4-4d93-8640-7fbe1a48fb70)
+次の「AIによる台本修正機能」で必要なので合わせて説明します。
 
 #### ③AIによる台本修正機能
 
 以下のように編集箇所を選択した上でAIに編集指示を与え、台本の編集・編集内容の確認を行なったのちに変更を反映します。
 
+
 **⚠️注意事項⚠️**  
 AIが前後の文も編集する場合があります。必ず変更差分を確認してから反映してください。
-
-<iframe src="https://github.com/user-attachments/assets/b98896c5-80d5-4420-8b58-391f8a4dcaa7?raw=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-
-※GitHub Pages等で表示できない場合は、下記リンクから直接動画ファイルをご覧ください。  
-[動画をダウンロード／再生する](https://github.com/user-attachments/assets/b98896c5-80d5-4420-8b58-391f8a4dcaa7?raw=true)
 
 </details>
 
