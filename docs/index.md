@@ -34,10 +34,10 @@ ZEROは「冒頭生成」と「台本全文生成（Full Mode）」の2つの機
     - [1-2. 【重要】発信者情報の設定](#1-2-発信者情報の設定)
 2.  [実践編：AIで企画と台本を作る](#実践編aiで企画と台本を作る)
     - [ZEROの全体フロー](#zeroの全体フロー)
-    - [2-1. 企画案作成AI：アイデアを具体化する](#2-1-企画案作成aiアイデアを具体化する)
-    - [2-2. 冒頭台本作成AI：引き込む導入を作る](#2-2-冒頭台本作成ai引き込む導入を作る)
-    - [2-3. 台本全文作成AI（Full Mode）：完全な台本を生成する](#2-3-台本全文作成aifull-mode完全な台本を生成する)
-    - [2-4. ドキュメント機能：台本を仕上げる](#2-4-ドキュメント機能台本を仕上げる)
+    - [2-1. 企画案作成AI](#2-1-企画案作成ai)
+    - [2-2. 冒頭台本作成AI](#2-2-冒頭台本作成ai)
+    - [2-3. 台本全文作成AI（Full Mode）](#2-3-台本全文作成aifull-mode)
+    - [2-4. ドキュメント機能](#2-4-ドキュメント機能)
 3.  [注意事項とサポート](#注意事項とサポート)
 4.  [よくある質問](#よくある質問)
 
@@ -147,7 +147,7 @@ graph TB
     style G fill:#fff3e0,stroke:#ff9800,stroke-width:3px
 ```
 
-### **2-1. 企画案作成AI：アイデアを具体化する**
+### **2-1. 企画案作成AI**
 
 <details markdown="1">
 
@@ -184,7 +184,7 @@ graph TB
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/bd9d1294dfbd4ac1a0340b2ad105c52b?sid=912e316d-8677-4efe-bd37-b1237a825d63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 </details>
 
-### **2-2. 冒頭台本作成AI：引き込む導入を作る**
+### **2-2. 冒頭台本作成AI**
 
 <details markdown="1">
 
@@ -241,7 +241,7 @@ AIが分析に基づき、異なる訴求パターンで**最大3つの冒頭台
 
 </details>
 
-### **2-3. 台本全文作成AI（Full Mode）：完全な台本を生成する**
+### **2-3. 台本全文作成AI（Full Mode）**
 
 <details markdown="1">
 
@@ -335,7 +335,7 @@ AIが企画の種別を自動判定し、最適な台本フォーマットを選
 
 </details>
 
-### **2-4. ドキュメント機能：台本を仕上げる**
+### **2-4. ドキュメント機能**
 
 <details markdown="1">
 
