@@ -184,6 +184,8 @@ graph TB
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/bd9d1294dfbd4ac1a0340b2ad105c52b?sid=912e316d-8677-4efe-bd37-b1237a825d63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 </details>
 
+---
+
 ### **2-2. 冒頭台本作成AI**
 
 <details markdown="1">
@@ -240,6 +242,8 @@ AIが分析に基づき、異なる訴求パターンで**最大3つの冒頭台
 | ![台本案の選択](https://github.com/user-attachments/assets/88ddda63-55b4-4175-845e-b503c7621f01) |
 
 </details>
+
+---
 
 ### **2-3. 台本全文作成AI（Full Mode）**
 
@@ -334,6 +338,8 @@ AIが企画の種別を自動判定し、最適な台本フォーマットを選
 現在、判定精度100%を目指して開発中です。
 
 </details>
+
+---
 
 ### **2-4. ドキュメント機能**
 
