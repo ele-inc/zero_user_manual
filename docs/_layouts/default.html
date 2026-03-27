@@ -44,6 +44,39 @@
       -webkit-font-smoothing: antialiased;
     }
 
+    /* Navigation */
+    .site-nav {
+      display: flex;
+      gap: 4px;
+      max-width: calc(var(--content-max) + var(--toc-width) + 80px);
+      margin: 0 auto;
+      padding: 16px 24px 0;
+    }
+
+    .nav-link {
+      padding: 8px 16px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      text-decoration: none;
+      border-radius: 6px 6px 0 0;
+      border: 1px solid transparent;
+      border-bottom: none;
+      transition: all 0.15s;
+    }
+
+    .nav-link:hover {
+      color: var(--text);
+      background: var(--surface);
+      text-decoration: none;
+    }
+
+    .nav-link.active {
+      color: var(--accent);
+      background: var(--surface);
+      border-color: var(--border);
+    }
+
     /* Layout */
     .layout {
       display: flex;
@@ -302,6 +335,11 @@
   </style>
 </head>
 <body>
+  <nav class="site-nav">
+    <a href="{{ "/" | relative_url }}" class="nav-link {% if page.url == '/index.html' or page.url == '/' %}active{% endif %}">TOP</a>
+    <a href="{{ "/getting-started" | relative_url }}" class="nav-link {% if page.url contains 'getting-started' %}active{% endif %}">ご利用開始ガイド</a>
+    <a href="{{ "/manual" | relative_url }}" class="nav-link {% if page.url contains 'manual' %}active{% endif %}">活用ガイド</a>
+  </nav>
   <div class="layout">
     <main class="content">
       {{ content }}
