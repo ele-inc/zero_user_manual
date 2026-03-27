@@ -123,7 +123,7 @@
       font-weight: 500;
     }
 
-    .toc-sidebar .toc-h3 {
+    .toc-sidebar .toc-h2 {
       padding-left: 24px;
       font-size: 12px;
     }
@@ -319,7 +319,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Build TOC from h2 and h3
-      var headings = document.querySelectorAll('.content h2, .content h3');
+      var headings = document.querySelectorAll('.content h1:not(:first-child), .content h2');
       var toc = document.getElementById('toc');
       var ul = document.createElement('ul');
 
@@ -333,8 +333,8 @@
         var a = document.createElement('a');
         a.href = '#' + h.id;
         a.textContent = h.textContent.replace(/\*\*/g, '');
-        if (h.tagName === 'H3') {
-          a.classList.add('toc-h3');
+        if (h.tagName === 'H2') {
+          a.classList.add('toc-h2');
         }
         li.appendChild(a);
         ul.appendChild(li);
