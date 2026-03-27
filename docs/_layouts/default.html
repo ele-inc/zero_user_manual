@@ -1,51 +1,368 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "ja" }}">
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 
-  <!-- Google Fonts to improve typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg: #fafaf8;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --text-secondary: #555;
+      --border: #e5e5e3;
+      --accent: #2563eb;
+      --accent-light: #eff6ff;
+      --code-bg: #f5f5f4;
+      --toc-width: 220px;
+      --content-max: 780px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 24px;
+    }
+
     body {
-      font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+      font-family: 'Inter', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Layout */
+    .layout {
+      display: flex;
+      max-width: calc(var(--content-max) + var(--toc-width) + 80px);
+      margin: 0 auto;
+      padding: 40px 24px;
+      gap: 48px;
+    }
+
+    .content {
+      flex: 1;
+      min-width: 0;
+      max-width: var(--content-max);
+    }
+
+    /* TOC sidebar */
+    .toc-sidebar {
+      width: var(--toc-width);
+      flex-shrink: 0;
+    }
+
+    .toc-sidebar nav {
+      position: sticky;
+      top: 24px;
+      max-height: calc(100vh - 48px);
+      overflow-y: auto;
+      font-size: 13px;
+      line-height: 1.5;
+      padding-right: 8px;
+    }
+
+    .toc-sidebar nav::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    .toc-sidebar nav::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 3px;
+    }
+
+    .toc-sidebar .toc-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    .toc-sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .toc-sidebar li {
+      margin: 0;
+    }
+
+    .toc-sidebar a {
+      display: block;
+      padding: 4px 0 4px 0;
+      color: var(--text-secondary);
+      text-decoration: none;
+      border-left: 2px solid transparent;
+      padding-left: 12px;
+      transition: all 0.15s;
+    }
+
+    .toc-sidebar a:hover {
+      color: var(--accent);
+    }
+
+    .toc-sidebar a.active {
+      color: var(--accent);
+      border-left-color: var(--accent);
+      font-weight: 500;
+    }
+
+    .toc-sidebar .toc-h3 {
+      padding-left: 24px;
+      font-size: 12px;
+    }
+
+    /* Typography */
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+      line-height: 1.3;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 48px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 36px 0 12px;
+    }
+
+    h4 {
+      font-size: 15px;
+      font-weight: 600;
+      margin: 24px 0 8px;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    /* Blockquote (warnings, notes) */
+    blockquote {
+      margin: 16px 0;
+      padding: 12px 16px;
+      background: #fef9ee;
+      border-left: 3px solid #f0a500;
+      border-radius: 0 6px 6px 0;
+      font-size: 14px;
+    }
+
+    blockquote p {
+      margin: 0 0 8px;
+    }
+
+    blockquote p:last-child {
+      margin: 0;
+    }
+
+    /* Tables */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      text-align: left;
+    }
+
+    th {
+      background: var(--code-bg);
+      font-weight: 600;
+    }
+
+    /* Images */
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      margin: 8px 0;
+    }
+
+    /* Code */
+    code {
+      font-size: 13px;
+      background: var(--code-bg);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    pre {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+    }
+
+    /* Lists */
+    ul, ol {
+      padding-left: 24px;
+      margin: 8px 0 16px;
+    }
+
+    li {
+      margin: 4px 0;
+    }
+
+    /* Details/Summary (FAQ) */
+    details {
+      margin: 8px 0;
+      padding: 0;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 500;
+      padding: 8px 0;
+      color: var(--text);
+      user-select: none;
+    }
+
+    summary:hover {
+      color: var(--accent);
+    }
+
+    details[open] summary {
+      margin-bottom: 8px;
+    }
+
+    /* Mermaid */
+    .mermaid {
+      text-align: center;
+      margin: 24px 0;
+    }
+
+    /* Mobile */
+    @media (max-width: 900px) {
+      .toc-sidebar {
+        display: none;
+      }
+
+      .layout {
+        padding: 24px 16px;
+      }
+
+      h1 { font-size: 24px; }
+      h2 { font-size: 19px; }
     }
   </style>
 </head>
 <body>
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
+  <div class="layout">
+    <main class="content">
       {{ content }}
-    </div>
-  </main>
+    </main>
+    <aside class="toc-sidebar">
+      <nav id="toc">
+        <div class="toc-title">目次</div>
+      </nav>
+    </aside>
+  </div>
 
   {% if page.mermaid %}
     {% include mermaid.html %}
   {% endif %}
 
-  <!-- External links open in new tab -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      // Get all links
-      var links = document.getElementsByTagName('a');
+      // Build TOC from h2 and h3
+      var headings = document.querySelectorAll('.content h2, .content h3');
+      var toc = document.getElementById('toc');
+      var ul = document.createElement('ul');
 
-      for (var i = 0; i < links.length; i++) {
-        var link = links[i];
-
-        // Check if it's an external link
-        if (link.hostname && link.hostname !== window.location.hostname) {
-          // Set target to _blank for external links
-          link.setAttribute('target', '_blank');
-          // Add rel="noopener noreferrer" for security
-          link.setAttribute('rel', 'noopener noreferrer');
+      headings.forEach(function(h) {
+        if (!h.id) {
+          h.id = h.textContent.trim().toLowerCase()
+            .replace(/[^\w\u3000-\u9fff\u4e00-\u9faf]+/g, '-')
+            .replace(/^-|-$/g, '');
         }
-      }
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.textContent = h.textContent.replace(/\*\*/g, '');
+        if (h.tagName === 'H3') {
+          a.classList.add('toc-h3');
+        }
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+
+      toc.appendChild(ul);
+
+      // Highlight active TOC item on scroll
+      var tocLinks = toc.querySelectorAll('a');
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            tocLinks.forEach(function(link) { link.classList.remove('active'); });
+            var active = toc.querySelector('a[href="#' + entry.target.id + '"]');
+            if (active) active.classList.add('active');
+          }
+        });
+      }, { rootMargin: '-20px 0px -80% 0px' });
+
+      headings.forEach(function(h) { observer.observe(h); });
+
+      // External links in new tab
+      document.querySelectorAll('a[href^="http"]').forEach(function(link) {
+        if (link.hostname !== window.location.hostname) {
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+        }
+      });
     });
   </script>
 </body>
